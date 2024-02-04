@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    max-width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+label,input{
+    display: block;
+    margin-bottom: 5px;
+}
+button{
+    padding: 3px 6px;
+}
+
+#output{
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+#datalist{
+    list-style: none;
+}
+
+#datalist li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
